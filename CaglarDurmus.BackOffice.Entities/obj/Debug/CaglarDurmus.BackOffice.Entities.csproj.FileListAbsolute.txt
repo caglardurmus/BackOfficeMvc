@@ -1,0 +1,6 @@
+C:\Users\caglar.durmus\source\repos\BackOfficeDemo\CaglarDurmus.BackOffice.Entities\bin\Debug\CaglarDurmus.BackOffice.Entities.dll
+C:\Users\caglar.durmus\source\repos\BackOfficeDemo\CaglarDurmus.BackOffice.Entities\bin\Debug\CaglarDurmus.BackOffice.Entities.pdb
+C:\Users\caglar.durmus\source\repos\BackOfficeDemo\CaglarDurmus.BackOffice.Entities\obj\Debug\CaglarDurmus.BackOffice.Entities.csproj.CoreCompileInputs.cache
+C:\Users\caglar.durmus\source\repos\BackOfficeDemo\CaglarDurmus.BackOffice.Entities\obj\Debug\CaglarDurmus.BackOffice.Entities.dll
+C:\Users\caglar.durmus\source\repos\BackOfficeDemo\CaglarDurmus.BackOffice.Entities\obj\Debug\CaglarDurmus.BackOffice.Entities.pdb
+C:\Users\caglar.durmus\source\repos\BackOfficeDemo\CaglarDurmus.BackOffice.Entities\obj\Debug\CaglarDurmus.BackOffice.Entities.csprojAssemblyReference.cache
