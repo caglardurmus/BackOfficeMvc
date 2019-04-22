@@ -1,0 +1,50 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/LayoutMain.cshtml";
+}
+@model CaglarDurmus.BackOffice.Entities.Concrete.Product
+
+@using (Html.BeginForm("Edit"))
+{
+    <div class="card">
+        <form class="form-horizontal">
+            <div class="card-body">
+                <div class="form-group row">
+                    <label for="fname" class="col-sm-3 text-right control-label col-form-label">Ürün Adı</label>
+                    <div class="col-sm-3">
+                        <input type="text" class="form-control" id="productName" name="productName" placeholder="Ürün Adı" value=@Model.ProductName>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="categoryID" class="col-sm-3 text-right control-label col-form-label">Kategori Numarası</label>
+                    <div class="col-sm-3">
+                        <input type="text" class="form-control" id="categoryID" name="categoryID" placeholder="Kategori Numarası" value=@Model.CategoryID>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="unitPrice" class="col-sm-3 text-right control-label col-form-label">Ürün Fiyatı</label>
+                    <div class="col-sm-3">
+                        <input type="text" class="form-control" id="unitPrice" name="unitPrice" placeholder="Ürün Fiyatı" value=@Model.UnitPrice>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="quantityPerUnit" class="col-sm-3 text-right control-label col-form-label">Birim Adeti</label>
+                    <div class="col-sm-3">
+                        <input type="text" class="form-control" id="quantityPerUnit" name="quantityPerUnit" placeholder="Birim Adeti" value=@Model.QuantityPerUnit>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="unitsInStock" class="col-sm-3 text-right control-label col-form-label">Stok</label>
+                    <div class="col-sm-3">
+                        <input type="text" class="form-control" id="unitsInStock" name="unitsInStock" placeholder="Stok" value=@Model.UnitsInStock>
+                    </div>
+                </div>
+            </div>
+            <div class="border-top">
+                <div class="card-body">
+                    <button type="submit" class="btn btn-primary">Kaydet</button>
+                </div>
+            </div>
+        </form>
+    </div>
+}
