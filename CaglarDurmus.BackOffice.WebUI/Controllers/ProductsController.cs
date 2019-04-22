@@ -15,7 +15,7 @@ namespace CaglarDurmus.BackOffice.WebUI.Controllers
     {
         public ActionResult Index()
         {
-            this.SetPageTitle("Ürünler");
+            this.SetPageTitle(string.Join(" | ", "Ürünler", this.ApplicationName));
             return View();
         }
         public ActionResult productsGrid()
@@ -62,7 +62,7 @@ namespace CaglarDurmus.BackOffice.WebUI.Controllers
         [HttpGet]
         public ActionResult Edit(int? id)
         {
-            this.SetPageTitle("Ürünler - Detay");
+            this.SetPageTitle(string.Join(" | ", "Ürünler - Detay", this.ApplicationName));
 
             try
             {
@@ -71,6 +71,10 @@ namespace CaglarDurmus.BackOffice.WebUI.Controllers
                 {
                     entity = InstanceFactory.GetInstance<IProductService>().GetProduct(id.Value);
                 }
+
+                var categories = InstanceFactory.GetInstance<ICategoryService>().GetAll();
+
+                ViewBag.CategoryID = new SelectList(categories, "CategoryID", "CategoryName");
 
                 return View(entity);
 
@@ -90,8 +94,6 @@ namespace CaglarDurmus.BackOffice.WebUI.Controllers
             string quantityPerUnit,
             string unitsInStock)
         {
-            this.SetPageTitle("Ürünler - Detay");
-
             try
             {
                 InstanceFactory.GetInstance<IProductService>().SaveProduct(
@@ -101,6 +103,7 @@ namespace CaglarDurmus.BackOffice.WebUI.Controllers
                     unitPrice: Convert.ToDecimal(unitPrice),
                     quantityPerUnit: quantityPerUnit,
                     unitsInStock: Convert.ToInt16(unitsInStock));
+
 
                 return RedirectWithAlertMessage("İşlem Başarılı!", "Index");
 
@@ -115,15 +118,12 @@ namespace CaglarDurmus.BackOffice.WebUI.Controllers
         [HttpGet]
         public ActionResult Delete(int id)
         {
-            this.SetPageTitle("Ürünler - Detay");
-
             try
             {
                 var productService = InstanceFactory.GetInstance<IProductService>();
                 var entity = productService.GetProduct(id);
                 productService.Delete(entity);
                 return RedirectWithAlertMessage("İşlem Başarılı", "Index");
-
             }
             catch (Exception ex)
             {

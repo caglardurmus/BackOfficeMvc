@@ -2,7 +2,11 @@
     ViewBag.Title = "Index";
     Layout = "~/Views/Shared/LayoutMain.cshtml";
 }
+
 @model CaglarDurmus.BackOffice.Entities.Concrete.Product
+
+
+
 
 @using (Html.BeginForm("Edit"))
 {
@@ -18,8 +22,11 @@
                 <div class="form-group row">
                     <label for="categoryID" class="col-sm-3 text-right control-label col-form-label">Kategori Numarası</label>
                     <div class="col-sm-3">
-                        <input type="text" class="form-control" id="categoryID" name="categoryID" placeholder="Kategori Numarası" value=@Model.CategoryID>
+                        @Html.DropDownList("CategoryID", null, new { id = "dropDown" , style="width: 100%;"})
                     </div>
+                    @*<div class="col-sm-3">
+                            <input type="text" class="form-control" id="categoryID" name="categoryID" placeholder="Kategori Numarası" value=@Model.CategoryID>
+                        </div>*@
                 </div>
                 <div class="form-group row">
                     <label for="unitPrice" class="col-sm-3 text-right control-label col-form-label">Ürün Fiyatı</label>
@@ -48,3 +55,9 @@
         </form>
     </div>
 }
+<script>
+    $(function () {
+        $('#dropDown').select2();
+        $('#dropDown').val(@Model.CategoryID).trigger('change');
+    });
+</script>
