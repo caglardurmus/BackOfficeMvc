@@ -18,7 +18,6 @@ namespace CaglarDurmus.BackOffice.WebUI.Controllers
             this.SetPageTitle("Ürünler");
             return View();
         }
-
         public ActionResult productsGrid()
         {
             try
