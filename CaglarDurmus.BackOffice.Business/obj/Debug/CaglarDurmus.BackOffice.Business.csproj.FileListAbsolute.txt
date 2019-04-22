@@ -1,0 +1,28 @@
+C:\Users\caglar.durmus\Documents\Visual Studio 2017\Projects\NLayeredAppDemo\CaglarDurmus.BackOffice.Business\obj\Debug\CaglarDurmus.BackOffice.Business.csprojAssemblyReference.cache
+C:\Users\caglar.durmus\Documents\Visual Studio 2017\Projects\NLayeredAppDemo\CaglarDurmus.BackOffice.Business\obj\Debug\CaglarDurmus.BackOffice.Business.csproj.CoreCompileInputs.cache
+C:\Users\caglar.durmus\Documents\Visual Studio 2017\Projects\NLayeredAppDemo\CaglarDurmus.BackOffice.Business\obj\Debug\Northwind.Business.dll
+C:\Users\caglar.durmus\Documents\Visual Studio 2017\Projects\NLayeredAppDemo\CaglarDurmus.BackOffice.Business\obj\Debug\Northwind.Business.pdb
+C:\Users\caglar.durmus\source\repos\BackOfficeDemo\CaglarDurmus.BackOffice.Business\bin\Debug\CaglarDurmus.BackOffice.Business.dll.config
+C:\Users\caglar.durmus\source\repos\BackOfficeDemo\CaglarDurmus.BackOffice.Business\bin\Debug\CaglarDurmus.BackOffice.Business.dll
+C:\Users\caglar.durmus\source\repos\BackOfficeDemo\CaglarDurmus.BackOffice.Business\bin\Debug\CaglarDurmus.BackOffice.Business.pdb
+C:\Users\caglar.durmus\source\repos\BackOfficeDemo\CaglarDurmus.BackOffice.Business\bin\Debug\CaglarDurmus.BackOffice.DataAccess.dll
+C:\Users\caglar.durmus\source\repos\BackOfficeDemo\CaglarDurmus.BackOffice.Business\bin\Debug\CaglarDurmus.BackOffice.Entities.dll
+C:\Users\caglar.durmus\source\repos\BackOfficeDemo\CaglarDurmus.BackOffice.Business\bin\Debug\EntityFramework.dll
+C:\Users\caglar.durmus\source\repos\BackOfficeDemo\CaglarDurmus.BackOffice.Business\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\caglar.durmus\source\repos\BackOfficeDemo\CaglarDurmus.BackOffice.Business\bin\Debug\FluentValidation.dll
+C:\Users\caglar.durmus\source\repos\BackOfficeDemo\CaglarDurmus.BackOffice.Business\bin\Debug\Ninject.dll
+C:\Users\caglar.durmus\source\repos\BackOfficeDemo\CaglarDurmus.BackOffice.Business\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Users\caglar.durmus\source\repos\BackOfficeDemo\CaglarDurmus.BackOffice.Business\bin\Debug\System.ValueTuple.dll
+C:\Users\caglar.durmus\source\repos\BackOfficeDemo\CaglarDurmus.BackOffice.Business\bin\Debug\CaglarDurmus.BackOffice.DataAccess.pdb
+C:\Users\caglar.durmus\source\repos\BackOfficeDemo\CaglarDurmus.BackOffice.Business\bin\Debug\CaglarDurmus.BackOffice.DataAccess.dll.config
+C:\Users\caglar.durmus\source\repos\BackOfficeDemo\CaglarDurmus.BackOffice.Business\bin\Debug\CaglarDurmus.BackOffice.Entities.pdb
+C:\Users\caglar.durmus\source\repos\BackOfficeDemo\CaglarDurmus.BackOffice.Business\bin\Debug\EntityFramework.xml
+C:\Users\caglar.durmus\source\repos\BackOfficeDemo\CaglarDurmus.BackOffice.Business\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\caglar.durmus\source\repos\BackOfficeDemo\CaglarDurmus.BackOffice.Business\bin\Debug\FluentValidation.xml
+C:\Users\caglar.durmus\source\repos\BackOfficeDemo\CaglarDurmus.BackOffice.Business\bin\Debug\Ninject.xml
+C:\Users\caglar.durmus\source\repos\BackOfficeDemo\CaglarDurmus.BackOffice.Business\bin\Debug\System.ValueTuple.xml
+C:\Users\caglar.durmus\source\repos\BackOfficeDemo\CaglarDurmus.BackOffice.Business\obj\Debug\CaglarDurmus.BackOffice.Business.csprojAssemblyReference.cache
+C:\Users\caglar.durmus\source\repos\BackOfficeDemo\CaglarDurmus.BackOffice.Business\obj\Debug\CaglarDurmus.BackOffice.Business.csproj.CoreCompileInputs.cache
+C:\Users\caglar.durmus\source\repos\BackOfficeDemo\CaglarDurmus.BackOffice.Business\obj\Debug\CaglarDurmus.BackOffice.Business.csproj.CopyComplete
+C:\Users\caglar.durmus\source\repos\BackOfficeDemo\CaglarDurmus.BackOffice.Business\obj\Debug\CaglarDurmus.BackOffice.Business.dll
+C:\Users\caglar.durmus\source\repos\BackOfficeDemo\CaglarDurmus.BackOffice.Business\obj\Debug\CaglarDurmus.BackOffice.Business.pdb
