@@ -3,6 +3,7 @@ MVC, Web API, Entity Framework ve Çok Katmanlı Mimari BackOffice Örnek Proje
 
 Eğitim amaçlı ve geliştirmek için yapılmıştır.
 Örnek veriler için Northwind Db kullanılmıştır.
+Tema olarak - Matrix Admin Template kullanılmıştır.
 Projeyi açlıştırabilmek için aşağıdaki adımları uygulayınız.
 
 1. Scripts klasöründeki Create_Northwind.sql dosyasını kullanarak Northwind Db oluşturunuz.
