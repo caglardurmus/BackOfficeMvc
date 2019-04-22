@@ -1,0 +1,14 @@
+C:\Users\caglar.durmus\source\repos\BackOfficeDemo\CaglarDurmus.BackOffice.DataAccess\bin\Debug\CaglarDurmus.BackOffice.DataAccess.dll.config
+C:\Users\caglar.durmus\source\repos\BackOfficeDemo\CaglarDurmus.BackOffice.DataAccess\bin\Debug\CaglarDurmus.BackOffice.DataAccess.dll
+C:\Users\caglar.durmus\source\repos\BackOfficeDemo\CaglarDurmus.BackOffice.DataAccess\bin\Debug\CaglarDurmus.BackOffice.DataAccess.pdb
+C:\Users\caglar.durmus\source\repos\BackOfficeDemo\CaglarDurmus.BackOffice.DataAccess\bin\Debug\CaglarDurmus.BackOffice.Entities.dll
+C:\Users\caglar.durmus\source\repos\BackOfficeDemo\CaglarDurmus.BackOffice.DataAccess\bin\Debug\EntityFramework.dll
+C:\Users\caglar.durmus\source\repos\BackOfficeDemo\CaglarDurmus.BackOffice.DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\caglar.durmus\source\repos\BackOfficeDemo\CaglarDurmus.BackOffice.DataAccess\bin\Debug\CaglarDurmus.BackOffice.Entities.pdb
+C:\Users\caglar.durmus\source\repos\BackOfficeDemo\CaglarDurmus.BackOffice.DataAccess\bin\Debug\EntityFramework.xml
+C:\Users\caglar.durmus\source\repos\BackOfficeDemo\CaglarDurmus.BackOffice.DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\caglar.durmus\source\repos\BackOfficeDemo\CaglarDurmus.BackOffice.DataAccess\obj\Debug\CaglarDurmus.BackOffice.DataAccess.csprojAssemblyReference.cache
+C:\Users\caglar.durmus\source\repos\BackOfficeDemo\CaglarDurmus.BackOffice.DataAccess\obj\Debug\CaglarDurmus.BackOffice.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\caglar.durmus\source\repos\BackOfficeDemo\CaglarDurmus.BackOffice.DataAccess\obj\Debug\CaglarDurmus.BackOffice.DataAccess.csproj.CopyComplete
+C:\Users\caglar.durmus\source\repos\BackOfficeDemo\CaglarDurmus.BackOffice.DataAccess\obj\Debug\CaglarDurmus.BackOffice.DataAccess.dll
+C:\Users\caglar.durmus\source\repos\BackOfficeDemo\CaglarDurmus.BackOffice.DataAccess\obj\Debug\CaglarDurmus.BackOffice.DataAccess.pdb

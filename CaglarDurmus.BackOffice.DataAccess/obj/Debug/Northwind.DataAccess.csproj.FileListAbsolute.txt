@@ -1,0 +1,14 @@
+c:\users\caglar.durmus\documents\visual studio 2017\Projects\NLayeredAppDemo\Northwind.DataAccess\bin\Debug\Northwind.DataAccess.dll.config
+c:\users\caglar.durmus\documents\visual studio 2017\Projects\NLayeredAppDemo\Northwind.DataAccess\bin\Debug\Northwind.DataAccess.dll
+c:\users\caglar.durmus\documents\visual studio 2017\Projects\NLayeredAppDemo\Northwind.DataAccess\bin\Debug\Northwind.DataAccess.pdb
+c:\users\caglar.durmus\documents\visual studio 2017\Projects\NLayeredAppDemo\Northwind.DataAccess\bin\Debug\EntityFramework.dll
+c:\users\caglar.durmus\documents\visual studio 2017\Projects\NLayeredAppDemo\Northwind.DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\caglar.durmus\documents\visual studio 2017\Projects\NLayeredAppDemo\Northwind.DataAccess\bin\Debug\Northwind.Entities.dll
+c:\users\caglar.durmus\documents\visual studio 2017\Projects\NLayeredAppDemo\Northwind.DataAccess\bin\Debug\Northwind.Entities.pdb
+c:\users\caglar.durmus\documents\visual studio 2017\Projects\NLayeredAppDemo\Northwind.DataAccess\bin\Debug\EntityFramework.xml
+c:\users\caglar.durmus\documents\visual studio 2017\Projects\NLayeredAppDemo\Northwind.DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\caglar.durmus\documents\visual studio 2017\Projects\NLayeredAppDemo\Northwind.DataAccess\obj\Debug\Northwind.DataAccess.dll
+c:\users\caglar.durmus\documents\visual studio 2017\Projects\NLayeredAppDemo\Northwind.DataAccess\obj\Debug\Northwind.DataAccess.pdb
+C:\Users\caglar.durmus\Documents\Visual Studio 2017\Projects\NLayeredAppDemo\Northwind.DataAccess\obj\Debug\Northwind.DataAccess.csprojAssemblyReference.cache
+C:\Users\caglar.durmus\Documents\Visual Studio 2017\Projects\NLayeredAppDemo\Northwind.DataAccess\obj\Debug\Northwind.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\caglar.durmus\Documents\Visual Studio 2017\Projects\NLayeredAppDemo\Northwind.DataAccess\obj\Debug\Northwind.DataAccess.csproj.CopyComplete
