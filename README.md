@@ -1,5 +1,5 @@
 # BackOfficeMVC
-MVC, Web API, Entity Framework ve Çok Katmanlı Mimari BackOffice Örnek Proje
+MVC, Web API, Entity Framework Code First ve Çok Katmanlı Mimari BackOffice Örnek Proje
 
 Eğitim amaçlı ve geliştirmek için yapılmıştır.
 Örnek veriler için Northwind Db kullanılmıştır.
