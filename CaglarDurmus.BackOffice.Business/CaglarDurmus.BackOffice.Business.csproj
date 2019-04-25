@@ -89,6 +89,10 @@
       <Project>{25CFE24B-9D66-4BA1-9F44-75862274D400}</Project>
       <Name>CaglarDurmus.BackOffice.Entities</Name>
     </ProjectReference>
+    <ProjectReference Include="..\CaglarDurmus.Core\CaglarDurmus.Core.csproj">
+      <Project>{44d83f04-de5c-42aa-abef-788c91dc4a55}</Project>
+      <Name>CaglarDurmus.Core</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

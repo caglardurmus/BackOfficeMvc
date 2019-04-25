@@ -41,12 +41,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Abstract\IEntity.cs" />
     <Compile Include="Concrete\Category.cs" />
     <Compile Include="Concrete\Product.cs" />
     <Compile Include="Concrete\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Abstract\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CaglarDurmus.Core\CaglarDurmus.Core.csproj">
+      <Project>{44D83F04-DE5C-42AA-ABEF-788C91DC4A55}</Project>
+      <Name>CaglarDurmus.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

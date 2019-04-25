@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaglarDurmus.BackOffice.Web
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaglarDurmus.CustomControls.Web", "CaglarDurmus.CustomControls.Web\CaglarDurmus.CustomControls.Web.csproj", "{10293471-3DA1-4FCA-AAB2-CFA318546E8A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaglarDurmus.Core", "CaglarDurmus.Core\CaglarDurmus.Core.csproj", "{44D83F04-DE5C-42AA-ABEF-788C91DC4A55}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{10293471-3DA1-4FCA-AAB2-CFA318546E8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{10293471-3DA1-4FCA-AAB2-CFA318546E8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{10293471-3DA1-4FCA-AAB2-CFA318546E8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44D83F04-DE5C-42AA-ABEF-788C91DC4A55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44D83F04-DE5C-42AA-ABEF-788C91DC4A55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44D83F04-DE5C-42AA-ABEF-788C91DC4A55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44D83F04-DE5C-42AA-ABEF-788C91DC4A55}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

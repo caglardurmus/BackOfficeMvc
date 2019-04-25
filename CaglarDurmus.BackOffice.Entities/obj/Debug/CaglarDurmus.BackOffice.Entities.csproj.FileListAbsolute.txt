@@ -1,0 +1,12 @@
+C:\Users\caglar.durmus\Documents\GitHub\BackOfficeMvc\CaglarDurmus.BackOffice.Entities\bin\Debug\CaglarDurmus.BackOffice.Entities.dll
+C:\Users\caglar.durmus\Documents\GitHub\BackOfficeMvc\CaglarDurmus.BackOffice.Entities\bin\Debug\CaglarDurmus.BackOffice.Entities.pdb
+C:\Users\caglar.durmus\Documents\GitHub\BackOfficeMvc\CaglarDurmus.BackOffice.Entities\bin\Debug\CaglarDurmus.Core.dll
+C:\Users\caglar.durmus\Documents\GitHub\BackOfficeMvc\CaglarDurmus.BackOffice.Entities\bin\Debug\EntityFramework.dll
+C:\Users\caglar.durmus\Documents\GitHub\BackOfficeMvc\CaglarDurmus.BackOffice.Entities\bin\Debug\CaglarDurmus.Core.pdb
+C:\Users\caglar.durmus\Documents\GitHub\BackOfficeMvc\CaglarDurmus.BackOffice.Entities\bin\Debug\CaglarDurmus.Core.dll.config
+C:\Users\caglar.durmus\Documents\GitHub\BackOfficeMvc\CaglarDurmus.BackOffice.Entities\bin\Debug\EntityFramework.xml
+C:\Users\caglar.durmus\Documents\GitHub\BackOfficeMvc\CaglarDurmus.BackOffice.Entities\obj\Debug\CaglarDurmus.BackOffice.Entities.csprojAssemblyReference.cache
+C:\Users\caglar.durmus\Documents\GitHub\BackOfficeMvc\CaglarDurmus.BackOffice.Entities\obj\Debug\CaglarDurmus.BackOffice.Entities.csproj.CoreCompileInputs.cache
+C:\Users\caglar.durmus\Documents\GitHub\BackOfficeMvc\CaglarDurmus.BackOffice.Entities\obj\Debug\CaglarDurmus.BackOffice.Entities.csproj.CopyComplete
+C:\Users\caglar.durmus\Documents\GitHub\BackOfficeMvc\CaglarDurmus.BackOffice.Entities\obj\Debug\CaglarDurmus.BackOffice.Entities.dll
+C:\Users\caglar.durmus\Documents\GitHub\BackOfficeMvc\CaglarDurmus.BackOffice.Entities\obj\Debug\CaglarDurmus.BackOffice.Entities.pdb

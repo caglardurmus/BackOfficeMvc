@@ -48,11 +48,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Abstract\ICategoryRepository.cs" />
-    <Compile Include="Abstract\IEntityRepository.cs" />
     <Compile Include="Abstract\IProductRepository.cs" />
     <Compile Include="Abstract\IUserRepository.cs" />
     <Compile Include="Concrete\EntityFramework\EfCategoryRepository.cs" />
-    <Compile Include="Concrete\EntityFramework\EfEntityRepositoryBase.cs" />
     <Compile Include="Concrete\EntityFramework\EfUserRepository.cs" />
     <Compile Include="Concrete\EntityFramework\NorthwindContext.cs" />
     <Compile Include="Concrete\EntityFramework\EfProductRepository.cs" />
@@ -62,6 +60,10 @@
     <ProjectReference Include="..\CaglarDurmus.BackOffice.Entities\CaglarDurmus.BackOffice.Entities.csproj">
       <Project>{25CFE24B-9D66-4BA1-9F44-75862274D400}</Project>
       <Name>CaglarDurmus.BackOffice.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CaglarDurmus.Core\CaglarDurmus.Core.csproj">
+      <Project>{44d83f04-de5c-42aa-abef-788c91dc4a55}</Project>
+      <Name>CaglarDurmus.Core</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

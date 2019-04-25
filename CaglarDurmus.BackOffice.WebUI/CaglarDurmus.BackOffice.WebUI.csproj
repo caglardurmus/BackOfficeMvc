@@ -1102,6 +1102,10 @@
       <Project>{25CFE24B-9D66-4BA1-9F44-75862274D400}</Project>
       <Name>CaglarDurmus.BackOffice.Entities</Name>
     </ProjectReference>
+    <ProjectReference Include="..\CaglarDurmus.Core\CaglarDurmus.Core.csproj">
+      <Project>{44D83F04-DE5C-42AA-ABEF-788C91DC4A55}</Project>
+      <Name>CaglarDurmus.Core</Name>
+    </ProjectReference>
     <ProjectReference Include="..\CaglarDurmus.CustomControls.Web\CaglarDurmus.CustomControls.Web.csproj">
       <Project>{10293471-3DA1-4FCA-AAB2-CFA318546E8A}</Project>
       <Name>CaglarDurmus.CustomControls.Web</Name>

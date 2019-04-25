@@ -1,0 +1,11 @@
+C:\Users\caglar.durmus\Documents\GitHub\BackOfficeMvc\CaglarDurmus.Core\bin\Debug\CaglarDurmus.Core.dll.config
+C:\Users\caglar.durmus\Documents\GitHub\BackOfficeMvc\CaglarDurmus.Core\bin\Debug\CaglarDurmus.Core.dll
+C:\Users\caglar.durmus\Documents\GitHub\BackOfficeMvc\CaglarDurmus.Core\bin\Debug\CaglarDurmus.Core.pdb
+C:\Users\caglar.durmus\Documents\GitHub\BackOfficeMvc\CaglarDurmus.Core\bin\Debug\EntityFramework.dll
+C:\Users\caglar.durmus\Documents\GitHub\BackOfficeMvc\CaglarDurmus.Core\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\caglar.durmus\Documents\GitHub\BackOfficeMvc\CaglarDurmus.Core\bin\Debug\EntityFramework.xml
+C:\Users\caglar.durmus\Documents\GitHub\BackOfficeMvc\CaglarDurmus.Core\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\caglar.durmus\Documents\GitHub\BackOfficeMvc\CaglarDurmus.Core\obj\Debug\CaglarDurmus.Core.csproj.CoreCompileInputs.cache
+C:\Users\caglar.durmus\Documents\GitHub\BackOfficeMvc\CaglarDurmus.Core\obj\Debug\CaglarDurmus.Core.csproj.CopyComplete
+C:\Users\caglar.durmus\Documents\GitHub\BackOfficeMvc\CaglarDurmus.Core\obj\Debug\CaglarDurmus.Core.dll
+C:\Users\caglar.durmus\Documents\GitHub\BackOfficeMvc\CaglarDurmus.Core\obj\Debug\CaglarDurmus.Core.pdb
