@@ -1,6 +1,7 @@
 ﻿using CaglarDurmus.BackOffice.Business.Abstract;
 using CaglarDurmus.BackOffice.Business.DependencyResolvers.Ninject;
 using CaglarDurmus.BackOffice.Entities.Concrete;
+using CaglarDurmus.BackOffice.WebUI.Models;
 using CaglarDurmus.CustomControls.Web;
 using System;
 using System.Collections.Generic;
@@ -74,9 +75,18 @@ namespace CaglarDurmus.BackOffice.WebUI.Controllers
 
                 var categories = InstanceFactory.GetInstance<ICategoryService>().GetAll();
 
-                ViewBag.CategoryID = new SelectList(categories, "CategoryID", "CategoryName");
+                List<SelectListItem> dropdownListItems = new List<SelectListItem>();
+                foreach (var category in categories)
+                {
+                    dropdownListItems.Add(new SelectListItem { Text = category.CategoryName, Value = category.CategoryId.ToString() });
+                }
+                var model = new ProductEditViewModel
+                {
+                    Categories = dropdownListItems,
+                    Product = entity
+                };
 
-                return View(entity);
+                return View(model);
 
             }
             catch (Exception ex)
@@ -89,7 +99,7 @@ namespace CaglarDurmus.BackOffice.WebUI.Controllers
         public ActionResult Edit(
             int? id,
             string productName,
-            string categoryID,
+            string categoryId,
             string unitPrice,
             string quantityPerUnit,
             string unitsInStock)
@@ -99,7 +109,7 @@ namespace CaglarDurmus.BackOffice.WebUI.Controllers
                 InstanceFactory.GetInstance<IProductService>().SaveProduct(
                     id: id,
                     productName: productName,
-                    categoryID: Convert.ToInt32(categoryID),
+                    categoryID: Convert.ToInt32(categoryId),
                     unitPrice: Convert.ToDecimal(unitPrice),
                     quantityPerUnit: quantityPerUnit,
                     unitsInStock: Convert.ToInt16(unitsInStock));
