@@ -10,5 +10,6 @@ namespace CaglarDurmus.BackOffice.DataAccess.Abstract
 {
     public interface IProductRepository : IEntityRepository<Product>
     {
+        List<Product> GetWithCategories();
     }
 }

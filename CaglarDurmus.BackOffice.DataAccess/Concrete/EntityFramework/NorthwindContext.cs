@@ -14,5 +14,10 @@ namespace CaglarDurmus.BackOffice.DataAccess.Concrete.EntityFramework
         public DbSet<Category> Categories { get; set; }
         public DbSet<User> Users { get; set; }
 
+        protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Product>().HasRequired(p => p.Category).WithMany(c => c.Products);
+        }
+
     }
 }

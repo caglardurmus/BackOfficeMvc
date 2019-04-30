@@ -20,5 +20,6 @@ namespace CaglarDurmus.BackOffice.Business.Abstract
         void Delete(Product product);
         void Add(Product product);
         void SaveProduct(int? id, string productName, int categoryID, decimal unitPrice, string quantityPerUnit, Int16 unitsInStock);
+        List<Product> GetWithCategories();
     }
 }

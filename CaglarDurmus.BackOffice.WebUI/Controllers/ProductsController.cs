@@ -24,7 +24,7 @@ namespace CaglarDurmus.BackOffice.WebUI.Controllers
             try
             {
                 var grid = new Gridview("gridProduct", "Ürünler Tablosu");
-                var data = InstanceFactory.GetInstance<IProductService>().GetAll();
+                var data = InstanceFactory.GetInstance<IProductService>().GetWithCategories();
 
                 grid.CellPreparing += new CustomControl.CellPreparingEventHandler(grid_CellPreparing);
 
@@ -33,6 +33,7 @@ namespace CaglarDurmus.BackOffice.WebUI.Controllers
                                 new GridviewColumn("Id", "ProductID"),
                                 new GridviewColumn("Ürün Adı", "ProductName"),
                                 new GridviewColumn("Kategori", "CategoryID"),
+                                new GridviewColumn("Kategori Adı", "Category.CategoryName"),
                                 new GridviewColumn("Birim Adeti", "QuantityPerUnit"),
                                 new GridviewColumn("Ürün Fiyatı", "UnitPrice"),
                                 new GridviewColumn("Stok", "UnitsInStock")).DataBind(data);

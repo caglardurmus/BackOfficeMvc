@@ -12,5 +12,17 @@ namespace CaglarDurmus.BackOffice.DataAccess.Concrete.EntityFramework
 {
     public class EfProductPepository : EfEntityRepositoryBase<Product, NorthwindContext>, IProductRepository
     {
+        NorthwindContext _context;
+        public EfProductPepository(NorthwindContext context)
+        {
+            _context = context;
+        }
+
+        public List<Product> GetWithCategories()
+        {
+            return _context.Set<Product>().ToList();
+        }
+
+
     }
 }

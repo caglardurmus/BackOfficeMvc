@@ -16,6 +16,9 @@ namespace CaglarDurmus.BackOffice.Entities.Concrete
         public int CategoryID { get; set; }
         public decimal UnitPrice { get; set; }
         public string QuantityPerUnit { get; set; }
-        public Int16 UnitsInStock { get; set; }  
+        public Int16 UnitsInStock { get; set; }
+
+        public virtual Category Category { get; set; }
+
     }
 }

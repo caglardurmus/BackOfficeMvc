@@ -128,5 +128,10 @@ namespace CaglarDurmus.BackOffice.Business.Concrete
         {
             return _productRepository.Get(p => p.ProductID == productId);
         }
+
+        public List<Product> GetWithCategories()
+        {
+            return _productRepository.GetWithCategories();
+        }
     }
 }
