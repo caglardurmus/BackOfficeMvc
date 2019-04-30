@@ -14,6 +14,16 @@ namespace CaglarDurmus.BackOffice.DataAccess.Concrete.EntityFramework
         public DbSet<Category> Categories { get; set; }
         public DbSet<User> Users { get; set; }
 
+        #region ConnectionString 
+
+        //public NorthwindContext()
+        //{
+        //    this.Database.Connection.ConnectionString = @"data source=(localdb)\MSSQLLocalDB; initial catalog=Northwind; integrated security=true";
+            
+        //}
+
+        #endregion
+
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Product>().HasRequired(p => p.Category).WithMany(c => c.Products);
