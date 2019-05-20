@@ -15,3 +15,10 @@ Tema olarak - Matrix Admin Template kullanılmıştır.
       -EntityFramework.6.2.0
       -FluentValidation.8.2.3
       -Ninject.3.3.4
+      
+# Resimler
+<img src="https://raw.githubusercontent.com/caglardurmus/BackOfficeMvc/master/demo.png" alt="demo" style="max-width:100%;">
+
+<img src="https://raw.githubusercontent.com/caglardurmus/BackOfficeMvc/master/demo_2.png" alt="demo2" style="max-width:100%;">
+
+<img src="https://raw.githubusercontent.com/caglardurmus/BackOfficeMvc/master/demo_3.png" alt="demo3" style="max-width:100%;">
